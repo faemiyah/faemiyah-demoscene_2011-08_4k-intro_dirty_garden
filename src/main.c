@@ -1520,7 +1520,7 @@ void _start()
 		for(;;)
 		{
 			int ticks = (int)((float)frame_idx / 15.0f * 44100.0f + 0.5f);
-			if(ticks > INTRO_LENGTH)
+			if(ticks > INTRO_LENGTH * 2)
 			{
 				break;
 			}
